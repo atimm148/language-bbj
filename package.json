@@ -1,0 +1,17 @@
+{
+  "name": "language-bbj",
+  "version": "0.0.0",
+  "description": "BBj language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atimm148/language-bbj.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atimm148/language-bbj/issues"
+  },
+  "license": "MIT"
+}

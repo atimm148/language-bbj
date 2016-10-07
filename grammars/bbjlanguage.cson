@@ -1,0 +1,32 @@
+'scopeName': 'source.bbj'
+'name': 'bbj'
+'fileTypes': ['bbj', 'src']
+'patterns': [
+    {
+       'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+       'name': 'constant.numeric.bbj'
+    },
+    {
+    'begin': '\\b(method)\\s+\\w+\\s+\\w+\\s+(\\w+)\\s*\\(.*\\)'
+    'beginCaptures':
+        '1':
+            'name': 'keyword.control.mylanguage'
+        '2':
+            'name': 'entity.name.function.bbj'
+    'end': '\\b(methodend)'
+    'endCaptures':
+        '1':
+            'name': 'keyword.control.mylanguage'
+    'name': 'meta.method.bbj'    },
+    {
+    'begin': '\"'
+    'end': '\"'
+    'name': 'punctuation.definition.string.bbj'
+    'patterns': [
+        {
+            'match': '\\\\'
+            'name': 'constant.character.escape.mylanguage'
+        }
+    ]
+    }
+  ]
