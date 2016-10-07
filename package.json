@@ -1,6 +1,6 @@
 {
   "name": "language-bbj",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "BBj language support in Atom",
   "engines": {
     "atom": "*"
